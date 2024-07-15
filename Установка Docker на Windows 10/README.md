@@ -6,17 +6,17 @@ Hyper-V для создания виртуальных машин в Windows 10.
 [Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
 #### Шаг 1. Щелкните правой кнопкой мыши кнопку Windows и выберите пункт "Приложения и компоненты".
-![image](https://github.com/user-attachments/assets/9d9ab88f-0b12-4b2c-9f66-28bd10ab1a1e)
+![image](https://github.com/user-attachments/assets/a0724f2f-2ff0-4fb2-8ec1-767ae7bdc2aa)
 
 #### Шаг 2. Выберите Программы и компоненты справа в разделе связанные параметры.
-![image](https://github.com/user-attachments/assets/3bab9492-666b-46a3-a6d4-87e6a8b5e888)
+![image](https://github.com/user-attachments/assets/6b197a51-427b-48a8-8f78-d1793461aa73)
 
 #### Шаг 3. Выберите пункт Включение или отключение компонентов Windows.
-![image](https://github.com/user-attachments/assets/d92dbd92-93f2-465a-95c9-fafd651b3f72)
+![image](https://github.com/user-attachments/assets/1b3f807d-0aef-495a-b449-1aadf7655e6a)
 
 #### Шаг 4. Включите Hyper-V.
 Найдите Hyper-V в списке, если он там есть (если Hyper-V в списке нет, то его надо будет установить. Смотри следующий пункт). Если галочка не стоит, то поставьте ее и нажмите кнопку ОК.
-![image](https://github.com/user-attachments/assets/d298a891-64f9-40b8-bbdf-1b47e7fae4d5)
+![image](https://github.com/user-attachments/assets/43f96ec9-3df6-4173-be45-dc0608381dc7)
 
 ## Этап 2. Устанавливаем Hyper-V, если он не установлен (не был найден на предыдущем шаге).
 
@@ -25,4 +25,9 @@ Hyper-V для создания виртуальных машин в Windows 10.
 В списке найденных приложений нажмите правой кнопкой мэши на "Windows PowerShell".
 Выберите пункт "Запуск от имени администратора".
 
+![image](https://github.com/user-attachments/assets/77f3a856-3e22-43e5-8bb5-f3448bee8621)
 
+#### Шаг 2. Запустите команду установки.
+````
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+````
