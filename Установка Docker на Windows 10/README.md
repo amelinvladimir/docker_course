@@ -66,8 +66,9 @@ wsl --list
 wsl --install -d Ubuntu-22.04
 ````
 
-#### Шаг 4. Устанавливаем Windows Terminal.
+## Этап 4. Устанавливаем Windows Terminal и запускаем Ubuntu.
 
+#### Шаг 1. Устанавливаем Windows Terminal.
 Открываем Microsoft Store.
 
 ![image](https://github.com/user-attachments/assets/2f15a8ef-9d6d-4a5e-8dd0-04972ce7c9b4)
@@ -80,11 +81,11 @@ wsl --install -d Ubuntu-22.04
 
 ![image](https://github.com/user-attachments/assets/a4eae157-d12f-48bf-870c-9f6dba7f3f94)
 
-#### Шаг 5. Запустите Windows Terminal.
+#### Шаг 2. Запускаем Windows Terminal.
 Введите в строке поиска "Терминал" и запустите найденное приложение.
 ![image](https://github.com/user-attachments/assets/5a531d46-490a-4a85-84b4-ab4610f34e09)
 
-#### Шаг 6. Запускаем Ubuntu.
+#### Шаг 3. Запускаем Ubuntu.
 Нажимаем на стрелку вниз в списке вкладок и выбираем "Ubuntu".
 ![image](https://github.com/user-attachments/assets/637653da-1e63-4e56-91e5-95c66e77f472)
 
@@ -93,7 +94,7 @@ Ubuntu запущен и открыто окно терминала :partying_fa
 ![image](https://github.com/user-attachments/assets/38c53199-e225-433f-b03c-1f5bcba17ff4)
 
 
-## Этап 4. Устанавливаем и настраиваем Docker Desktop.
+## Этап 5. Устанавливаем и настраиваем Docker Desktop.
 
 #### Шаг 1. Скачиваем дистрибутив по [ссылке](https://www.docker.com/products/docker-desktop/).
 
