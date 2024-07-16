@@ -89,6 +89,7 @@ wsl --install -d Ubuntu-22.04
 ![image](https://github.com/user-attachments/assets/637653da-1e63-4e56-91e5-95c66e77f472)
 
 Ubuntu запущен и открыто окно терминала :partying_face:
+После установки Docker Desktop вы сможете работать в этом окне с Docker также как в Linux.
 ![image](https://github.com/user-attachments/assets/38c53199-e225-433f-b03c-1f5bcba17ff4)
 
 
