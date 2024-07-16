@@ -1,6 +1,10 @@
 # Установка Docker на Windows 10
 
-## Этап 1. Проверяем, что включена опция Hyper-V Windows 
+В данной инструкции мы устанавливаем Docker Desktop вместе с wsl2. 
+Установка wsl2 не является обязательной, но при его установке вы сможете работать в Windows также как в Linux/MacOS. 
+Если вы хотите установить только Docker Desktop без wsl2, то сразу переходите к Этапу 4.
+
+## Этап 1. Проверяем, что включена опция Hyper-V Windows.
 Hyper-V для создания виртуальных машин в Windows 10.
 
 [Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
@@ -36,7 +40,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 #### Шаг 4. Вернитесь к Этупу 1 "Проверяем, что включена опция Hyper-V Windows".
 
-## Этап 2. Устанавливаем wsl2.
+## Этап 3. Устанавливаем wsl2.
 
 [Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/windows/wsl/install)
 
@@ -76,4 +80,27 @@ wsl --install -d Ubuntu-22.04
 
 ![image](https://github.com/user-attachments/assets/a4eae157-d12f-48bf-870c-9f6dba7f3f94)
 
+#### Шаг 5. Запустите Windows Terminal.
+Введите в строке поиска "Терминал" и запустите найденное приложение.
+![image](https://github.com/user-attachments/assets/5a531d46-490a-4a85-84b4-ab4610f34e09)
 
+#### Шаг 6. Запускаем Ubuntu.
+Нажимаем на стрелку вниз в списке вкладок и выбираем "Ubuntu".
+![image](https://github.com/user-attachments/assets/637653da-1e63-4e56-91e5-95c66e77f472)
+
+Ubuntu запущен и открыто окно терминала :partying_face:
+![image](https://github.com/user-attachments/assets/38c53199-e225-433f-b03c-1f5bcba17ff4)
+
+
+## Этап 4. Устанавливаем и настраиваем Docker Desktop.
+
+#### Шаг 1. Скачиваем дистрибутив по [ссылке](https://www.docker.com/products/docker-desktop/).
+
+#### Шаг 2. Устанавливаем Docker Desktop из дистрибутива.
+
+#### Шаг 3. Запускаем Docker Desktop.
+![image](https://github.com/user-attachments/assets/b4bc9c0b-f9f4-4902-b2f3-f48475247ce1)
+
+#### Шаг 4.
+
+#### Шаг 5.
