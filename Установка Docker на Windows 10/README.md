@@ -103,6 +103,13 @@ Ubuntu запущен и открыто окно терминала :partying_fa
 #### Шаг 3. Запускаем Docker Desktop.
 ![image](https://github.com/user-attachments/assets/b4bc9c0b-f9f4-4902-b2f3-f48475247ce1)
 
-#### Шаг 4.
+#### Шаг 4. Открываем настройки.
+Нажимаем на шестеренку в правом верхнем углу.
+![image](https://github.com/user-attachments/assets/a79aa22b-1904-47a4-bc66-04076bd09c15)
 
-#### Шаг 5.
+#### Шаг 5. Ставим галочку в разделе "General" в пункте "Use the WSL2 based engine".
+![image](https://github.com/user-attachments/assets/977663d3-d3ad-428e-bdb5-77201b980af9)
+
+#### Шаг 6. Включаем интеграцию с wsl2.
+В разделе "Resources"->"WSL Integration" ставим галочку в "Ubuntu ..." и нажимаем кнопку "Apply & restart".
+![image](https://github.com/user-attachments/assets/e887fd45-24b7-492d-8fc2-7decea524113)
