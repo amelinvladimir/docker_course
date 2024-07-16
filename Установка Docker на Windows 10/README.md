@@ -31,3 +31,24 @@ Hyper-V для создания виртуальных машин в Windows 10.
 ````
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ````
+
+#### Шаг 3. После завершения установки выполните перезагрузку компьютера.
+
+#### Шаг 4. Вернитесь к Этупу 1 "Проверяем, что включена опция Hyper-V Windows".
+
+## Этап 2. Устанавливаем wsl2.
+
+[Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/windows/wsl/install)
+
+#### Шаг 1. Запустите PowerShell или сеанс CMD от имени администратора.
+Введите в строке поиска "Powershell".
+В списке найденных приложений нажмите правой кнопкой мэши на "Windows PowerShell".
+Выберите пункт "Запуск от имени администратора".
+
+![image](https://github.com/user-attachments/assets/77f3a856-3e22-43e5-8bb5-f3448bee8621)
+
+#### Шаг 2. Выполните команду установки
+
+````
+wsl --install
+````
