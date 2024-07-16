@@ -52,3 +52,20 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ````
 wsl --install
 ````
+Эта команда включит функции, необходимые для запуска WSL и установки дистрибутива Ubuntu для Linux. 
+
+#### Шаг 3. Устанавливаем Ubuntu.
+
+Выполните команды
+````
+wsl --list
+wsl --install -d Ubuntu-22.04
+````
+
+#### Шаг 4. Устанавливаем Windows Terminal.
+
+Открываем Microsoft Store.
+Вводим в поиске "Windows Terminal".
+Устанавливаем найденное приложение.
+
+
