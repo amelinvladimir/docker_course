@@ -40,7 +40,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 #### Шаг 4. Вернитесь к Этупу 1 "Проверяем, что включена опция Hyper-V Windows".
 
-## Этап 3. Устанавливаем wsl2.
+## Этап 3. Установите wsl2.
 
 [Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/windows/wsl/install)
 
@@ -58,7 +58,7 @@ wsl --install
 ````
 Эта команда включит функции, необходимые для запуска WSL и установки дистрибутива Ubuntu для Linux. 
 
-#### Шаг 3. Устанавливаем Ubuntu.
+#### Шаг 3. Установите Ubuntu.
 
 Выполните команды
 ````
@@ -66,9 +66,9 @@ wsl --list
 wsl --install -d Ubuntu-22.04
 ````
 
-## Этап 4. Устанавливаем Windows Terminal и запускаем Ubuntu.
+## Этап 4. Установка Windows Terminal и запуск Ubuntu.
 
-#### Шаг 1. Устанавливаем Windows Terminal.
+#### Шаг 1. Установите Windows Terminal.
 Открываем Microsoft Store.
 
 ![image](https://github.com/user-attachments/assets/2f15a8ef-9d6d-4a5e-8dd0-04972ce7c9b4)
@@ -81,11 +81,10 @@ wsl --install -d Ubuntu-22.04
 
 ![image](https://github.com/user-attachments/assets/a4eae157-d12f-48bf-870c-9f6dba7f3f94)
 
-#### Шаг 2. Запускаем Windows Terminal.
 Введите в строке поиска "Терминал" и запустите найденное приложение.
 ![image](https://github.com/user-attachments/assets/5a531d46-490a-4a85-84b4-ab4610f34e09)
 
-#### Шаг 3. Запускаем Ubuntu.
+#### Шаг 3. Запустите Ubuntu.
 Нажимаем на стрелку вниз в списке вкладок и выбираем "Ubuntu".
 ![image](https://github.com/user-attachments/assets/637653da-1e63-4e56-91e5-95c66e77f472)
 
@@ -94,22 +93,24 @@ Ubuntu запущен и открыто окно терминала :partying_fa
 ![image](https://github.com/user-attachments/assets/38c53199-e225-433f-b03c-1f5bcba17ff4)
 
 
-## Этап 5. Устанавливаем и настраиваем Docker Desktop.
+## Этап 5. Установка и настройка Docker Desktop.
 
-#### Шаг 1. Скачиваем дистрибутив по [ссылке](https://www.docker.com/products/docker-desktop/).
+#### Шаг 1. Скачайте дистрибутив по [ссылке](https://www.docker.com/products/docker-desktop/).
 
-#### Шаг 2. Устанавливаем Docker Desktop из дистрибутива.
+#### Шаг 2. Установите Docker Desktop из дистрибутива.
 
-#### Шаг 3. Запускаем Docker Desktop.
+#### Шаг 3. Запустите Docker Desktop.
 ![image](https://github.com/user-attachments/assets/b4bc9c0b-f9f4-4902-b2f3-f48475247ce1)
 
-#### Шаг 4. Открываем настройки.
+#### Шаг 4. Откройте настройки.
 Нажимаем на шестеренку в правом верхнем углу.
 ![image](https://github.com/user-attachments/assets/a79aa22b-1904-47a4-bc66-04076bd09c15)
 
-#### Шаг 5. Ставим галочку в разделе "General" в пункте "Use the WSL2 based engine".
+#### Шаг 5. Поставьте галочку в разделе "General" в пункте "Use the WSL2 based engine".
 ![image](https://github.com/user-attachments/assets/977663d3-d3ad-428e-bdb5-77201b980af9)
 
-#### Шаг 6. Включаем интеграцию с wsl2.
+#### Шаг 6. Включите интеграцию с wsl2.
 В разделе "Resources"->"WSL Integration" ставим галочку в "Ubuntu ..." и нажимаем кнопку "Apply & restart".
 ![image](https://github.com/user-attachments/assets/e887fd45-24b7-492d-8fc2-7decea524113)
+
+# Установка Docker и wsl 2 на Windows 10 успешно завершена :partying_face:
