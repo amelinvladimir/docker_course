@@ -65,12 +65,15 @@ wsl --install -d Ubuntu-22.04
 #### Шаг 4. Устанавливаем Windows Terminal.
 
 Открываем Microsoft Store.
+
 ![image](https://github.com/user-attachments/assets/2f15a8ef-9d6d-4a5e-8dd0-04972ce7c9b4)
 
 Вводим в поиске "Windows Terminal".
+
 ![image](https://github.com/user-attachments/assets/eafa1c48-8c50-4163-8f77-2ee99bf1977d)
 
 Устанавливаем найденное приложение.
+
 ![image](https://github.com/user-attachments/assets/a4eae157-d12f-48bf-870c-9f6dba7f3f94)
 
 
