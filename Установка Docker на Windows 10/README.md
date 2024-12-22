@@ -40,6 +40,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 #### Шаг 4. Вернитесь к Этупу 1 "Проверяем, что включена опция Hyper-V Windows".
 
+#### Если предыдущие шаги не помогли установить Hyper-V, то вы можете попробовать воспользоваться [инструкцией](https://translated.turbopages.org/proxy_u/en-ru.ru.0add8d00-67671fd2-940c8a56-74722d776562/https/www.thewindowsclub.com/how-to-install-and-enable-hyper-v-on-windows-10-home)
+
 ## Этап 3. Установите wsl2.
 
 [Официальная инструкция от Microsoft.](https://learn.microsoft.com/ru-ru/windows/wsl/install)
